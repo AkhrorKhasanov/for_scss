@@ -1,0 +1,74 @@
+$numbers: (
+);
+
+@for $i from 1 through 278 {
+    $numbers: append($numbers, $i);
+}
+
+@function shuffle($list) {
+    $new-list: (
+    );
+$size: length($list);
+
+@for $i from 1 through $size {
+    $rand-index: random(length($list));
+    $val: nth($list, $rand-index);
+    $new-list: append($new-list, $val);
+    $list: remove-nth($list, $rand-index);
+}
+
+@return $new-list;
+}
+
+@function remove-nth($list, $index) {
+    $result: (
+    );
+
+@for $i from 1 through length($list) {
+    @if $i !=$index {
+        $result: append($result, nth($list, $i));
+    }
+}
+
+@return $result;
+}
+
+$shuffled-numbers: shuffle($numbers);
+
+
+
+.wrapper {
+    width: 961px;
+    height: 100vh;
+    // background-color: red;
+    background-image: url('img.jpg');
+    margin: 0 auto;
+    display: grid;
+
+    grid-template-columns: repeat(20, 40px);
+    grid-template-rows: repeat(20, 40px);
+    overflow: hidden;
+    gap: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.element {
+    width: 100px;
+    height: 120px;
+    background-color: black;
+    // border: 1px solid black;
+}
+
+@for $i from 1 through length($shuffled-numbers) {
+    $val: nth($shuffled-numbers, $i);
+
+    .wrapper:hover .element:nth-child(#{$i}) {
+        transition-delay: $val * 0.01s;
+        background-color: transparent;
+    }
+}

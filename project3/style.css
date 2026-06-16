@@ -1,0 +1,1415 @@
+.wrapper {
+  width: 961px;
+  height: 100vh;
+  background-image: url("img.jpg");
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(20, 40px);
+  grid-template-rows: repeat(20, 40px);
+  overflow: hidden;
+  gap: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.element {
+  width: 100px;
+  height: 120px;
+  background-color: black;
+}
+
+.wrapper:hover .element:nth-child(1) {
+  transition-delay: 0.23s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(2) {
+  transition-delay: 0.32s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(3) {
+  transition-delay: 0.63s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(4) {
+  transition-delay: 2.53s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(5) {
+  transition-delay: 1.53s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(6) {
+  transition-delay: 0.38s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(7) {
+  transition-delay: 1.5s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(8) {
+  transition-delay: 1.23s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(9) {
+  transition-delay: 2.07s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(10) {
+  transition-delay: 0.5s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(11) {
+  transition-delay: 2.29s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(12) {
+  transition-delay: 0.59s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(13) {
+  transition-delay: 2.59s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(14) {
+  transition-delay: 2.62s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(15) {
+  transition-delay: 1.95s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(16) {
+  transition-delay: 1.91s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(17) {
+  transition-delay: 0.21s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(18) {
+  transition-delay: 2.04s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(19) {
+  transition-delay: 2.34s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(20) {
+  transition-delay: 2.25s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(21) {
+  transition-delay: 2.55s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(22) {
+  transition-delay: 1.4s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(23) {
+  transition-delay: 1.26s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(24) {
+  transition-delay: 0.55s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(25) {
+  transition-delay: 1.41s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(26) {
+  transition-delay: 2.74s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(27) {
+  transition-delay: 2.26s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(28) {
+  transition-delay: 1.05s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(29) {
+  transition-delay: 0.18s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(30) {
+  transition-delay: 1.75s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(31) {
+  transition-delay: 2.03s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(32) {
+  transition-delay: 0.57s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(33) {
+  transition-delay: 1.38s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(34) {
+  transition-delay: 1.11s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(35) {
+  transition-delay: 0.29s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(36) {
+  transition-delay: 1.39s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(37) {
+  transition-delay: 2.77s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(38) {
+  transition-delay: 0.78s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(39) {
+  transition-delay: 2.11s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(40) {
+  transition-delay: 0.11s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(41) {
+  transition-delay: 1.96s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(42) {
+  transition-delay: 1.28s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(43) {
+  transition-delay: 0.01s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(44) {
+  transition-delay: 1.78s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(45) {
+  transition-delay: 0.08s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(46) {
+  transition-delay: 0.65s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(47) {
+  transition-delay: 1.52s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(48) {
+  transition-delay: 1.18s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(49) {
+  transition-delay: 1.64s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(50) {
+  transition-delay: 1.09s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(51) {
+  transition-delay: 0.13s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(52) {
+  transition-delay: 2.56s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(53) {
+  transition-delay: 1.35s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(54) {
+  transition-delay: 2.06s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(55) {
+  transition-delay: 0.37s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(56) {
+  transition-delay: 2.46s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(57) {
+  transition-delay: 1.17s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(58) {
+  transition-delay: 0.58s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(59) {
+  transition-delay: 0.61s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(60) {
+  transition-delay: 2.68s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(61) {
+  transition-delay: 0.98s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(62) {
+  transition-delay: 0.72s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(63) {
+  transition-delay: 0.69s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(64) {
+  transition-delay: 1.84s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(65) {
+  transition-delay: 1.68s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(66) {
+  transition-delay: 1.21s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(67) {
+  transition-delay: 0.39s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(68) {
+  transition-delay: 2.65s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(69) {
+  transition-delay: 0.09s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(70) {
+  transition-delay: 1.93s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(71) {
+  transition-delay: 2.02s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(72) {
+  transition-delay: 1.55s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(73) {
+  transition-delay: 1.16s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(74) {
+  transition-delay: 0.52s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(75) {
+  transition-delay: 2.67s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(76) {
+  transition-delay: 0.7s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(77) {
+  transition-delay: 2.63s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(78) {
+  transition-delay: 1.33s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(79) {
+  transition-delay: 2.66s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(80) {
+  transition-delay: 1.2s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(81) {
+  transition-delay: 1.27s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(82) {
+  transition-delay: 2.48s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(83) {
+  transition-delay: 0.85s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(84) {
+  transition-delay: 1.98s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(85) {
+  transition-delay: 0.03s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(86) {
+  transition-delay: 2.16s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(87) {
+  transition-delay: 1.12s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(88) {
+  transition-delay: 0.89s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(89) {
+  transition-delay: 0.46s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(90) {
+  transition-delay: 0.33s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(91) {
+  transition-delay: 0.94s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(92) {
+  transition-delay: 2.52s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(93) {
+  transition-delay: 0.43s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(94) {
+  transition-delay: 0.99s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(95) {
+  transition-delay: 2.43s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(96) {
+  transition-delay: 0.16s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(97) {
+  transition-delay: 0.2s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(98) {
+  transition-delay: 2.08s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(99) {
+  transition-delay: 2.76s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(100) {
+  transition-delay: 2.44s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(101) {
+  transition-delay: 2.05s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(102) {
+  transition-delay: 2.12s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(103) {
+  transition-delay: 1.02s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(104) {
+  transition-delay: 2.61s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(105) {
+  transition-delay: 2.49s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(106) {
+  transition-delay: 0.97s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(107) {
+  transition-delay: 0.86s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(108) {
+  transition-delay: 1.08s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(109) {
+  transition-delay: 1.07s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(110) {
+  transition-delay: 0.4s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(111) {
+  transition-delay: 0.28s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(112) {
+  transition-delay: 1.73s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(113) {
+  transition-delay: 2.4s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(114) {
+  transition-delay: 2.22s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(115) {
+  transition-delay: 0.19s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(116) {
+  transition-delay: 0.42s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(117) {
+  transition-delay: 1.01s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(118) {
+  transition-delay: 0.68s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(119) {
+  transition-delay: 2.19s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(120) {
+  transition-delay: 2.78s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(121) {
+  transition-delay: 1.13s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(122) {
+  transition-delay: 0.6s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(123) {
+  transition-delay: 1.3s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(124) {
+  transition-delay: 0.88s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(125) {
+  transition-delay: 1.04s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(126) {
+  transition-delay: 1.7s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(127) {
+  transition-delay: 0.24s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(128) {
+  transition-delay: 2.23s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(129) {
+  transition-delay: 1.24s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(130) {
+  transition-delay: 0.27s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(131) {
+  transition-delay: 0.05s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(132) {
+  transition-delay: 0.8s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(133) {
+  transition-delay: 1.86s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(134) {
+  transition-delay: 1.36s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(135) {
+  transition-delay: 0.91s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(136) {
+  transition-delay: 2.72s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(137) {
+  transition-delay: 2.5s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(138) {
+  transition-delay: 1.76s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(139) {
+  transition-delay: 1.32s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(140) {
+  transition-delay: 2.18s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(141) {
+  transition-delay: 1.57s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(142) {
+  transition-delay: 2.21s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(143) {
+  transition-delay: 1.6s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(144) {
+  transition-delay: 0.76s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(145) {
+  transition-delay: 0.67s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(146) {
+  transition-delay: 1.81s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(147) {
+  transition-delay: 0.9s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(148) {
+  transition-delay: 1.19s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(149) {
+  transition-delay: 1.85s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(150) {
+  transition-delay: 1.29s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(151) {
+  transition-delay: 1.44s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(152) {
+  transition-delay: 1.37s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(153) {
+  transition-delay: 2.47s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(154) {
+  transition-delay: 2.71s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(155) {
+  transition-delay: 0.45s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(156) {
+  transition-delay: 0.79s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(157) {
+  transition-delay: 0.47s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(158) {
+  transition-delay: 1.58s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(159) {
+  transition-delay: 0.75s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(160) {
+  transition-delay: 1.56s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(161) {
+  transition-delay: 1.94s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(162) {
+  transition-delay: 1.15s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(163) {
+  transition-delay: 0.64s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(164) {
+  transition-delay: 0.02s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(165) {
+  transition-delay: 0.77s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(166) {
+  transition-delay: 1.87s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(167) {
+  transition-delay: 2.1s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(168) {
+  transition-delay: 0.44s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(169) {
+  transition-delay: 2.3s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(170) {
+  transition-delay: 2.27s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(171) {
+  transition-delay: 1.8s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(172) {
+  transition-delay: 0.15s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(173) {
+  transition-delay: 2.01s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(174) {
+  transition-delay: 1.48s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(175) {
+  transition-delay: 2.51s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(176) {
+  transition-delay: 1.79s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(177) {
+  transition-delay: 2.57s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(178) {
+  transition-delay: 2.15s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(179) {
+  transition-delay: 2.32s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(180) {
+  transition-delay: 0.53s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(181) {
+  transition-delay: 1.67s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(182) {
+  transition-delay: 0.25s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(183) {
+  transition-delay: 0.49s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(184) {
+  transition-delay: 1.83s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(185) {
+  transition-delay: 2.36s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(186) {
+  transition-delay: 0.56s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(187) {
+  transition-delay: 2.42s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(188) {
+  transition-delay: 2.09s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(189) {
+  transition-delay: 1.65s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(190) {
+  transition-delay: 1.63s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(191) {
+  transition-delay: 0.1s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(192) {
+  transition-delay: 2.38s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(193) {
+  transition-delay: 2.6s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(194) {
+  transition-delay: 2.33s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(195) {
+  transition-delay: 0.93s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(196) {
+  transition-delay: 1.99s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(197) {
+  transition-delay: 0.22s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(198) {
+  transition-delay: 2.13s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(199) {
+  transition-delay: 0.95s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(200) {
+  transition-delay: 1.66s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(201) {
+  transition-delay: 2.64s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(202) {
+  transition-delay: 1.49s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(203) {
+  transition-delay: 0.35s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(204) {
+  transition-delay: 0.81s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(205) {
+  transition-delay: 1.14s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(206) {
+  transition-delay: 1.43s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(207) {
+  transition-delay: 1.92s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(208) {
+  transition-delay: 0.62s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(209) {
+  transition-delay: 1.34s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(210) {
+  transition-delay: 1s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(211) {
+  transition-delay: 2.75s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(212) {
+  transition-delay: 1.1s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(213) {
+  transition-delay: 2.39s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(214) {
+  transition-delay: 1.46s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(215) {
+  transition-delay: 1.42s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(216) {
+  transition-delay: 1.06s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(217) {
+  transition-delay: 0.07s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(218) {
+  transition-delay: 2.35s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(219) {
+  transition-delay: 1.9s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(220) {
+  transition-delay: 1.54s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(221) {
+  transition-delay: 0.3s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(222) {
+  transition-delay: 2.69s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(223) {
+  transition-delay: 1.82s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(224) {
+  transition-delay: 1.77s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(225) {
+  transition-delay: 2.54s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(226) {
+  transition-delay: 0.06s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(227) {
+  transition-delay: 1.51s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(228) {
+  transition-delay: 1.59s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(229) {
+  transition-delay: 2.31s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(230) {
+  transition-delay: 0.14s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(231) {
+  transition-delay: 0.54s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(232) {
+  transition-delay: 2.7s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(233) {
+  transition-delay: 0.71s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(234) {
+  transition-delay: 0.84s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(235) {
+  transition-delay: 0.66s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(236) {
+  transition-delay: 2.73s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(237) {
+  transition-delay: 1.71s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(238) {
+  transition-delay: 1.22s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(239) {
+  transition-delay: 0.82s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(240) {
+  transition-delay: 2.28s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(241) {
+  transition-delay: 0.92s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(242) {
+  transition-delay: 0.34s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(243) {
+  transition-delay: 1.31s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(244) {
+  transition-delay: 2.14s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(245) {
+  transition-delay: 0.48s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(246) {
+  transition-delay: 1.88s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(247) {
+  transition-delay: 1.62s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(248) {
+  transition-delay: 2.17s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(249) {
+  transition-delay: 1.45s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(250) {
+  transition-delay: 1.69s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(251) {
+  transition-delay: 0.74s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(252) {
+  transition-delay: 2.45s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(253) {
+  transition-delay: 1.03s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(254) {
+  transition-delay: 0.31s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(255) {
+  transition-delay: 0.26s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(256) {
+  transition-delay: 0.04s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(257) {
+  transition-delay: 2.2s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(258) {
+  transition-delay: 0.87s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(259) {
+  transition-delay: 0.73s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(260) {
+  transition-delay: 2s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(261) {
+  transition-delay: 0.41s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(262) {
+  transition-delay: 0.96s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(263) {
+  transition-delay: 0.17s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(264) {
+  transition-delay: 1.47s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(265) {
+  transition-delay: 0.83s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(266) {
+  transition-delay: 0.12s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(267) {
+  transition-delay: 1.72s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(268) {
+  transition-delay: 1.89s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(269) {
+  transition-delay: 1.97s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(270) {
+  transition-delay: 0.36s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(271) {
+  transition-delay: 1.74s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(272) {
+  transition-delay: 2.24s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(273) {
+  transition-delay: 0.51s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(274) {
+  transition-delay: 1.25s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(275) {
+  transition-delay: 2.41s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(276) {
+  transition-delay: 2.58s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(277) {
+  transition-delay: 1.61s;
+  background-color: transparent;
+}
+
+.wrapper:hover .element:nth-child(278) {
+  transition-delay: 2.37s;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
