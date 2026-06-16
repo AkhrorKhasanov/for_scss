@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+$background-colors: (
+    one: red,
+    two: green,
+    three: blue,
+    four: yellow,
+);
+
+$items: "one", "two", "three", "four";
+
+.wrapper {
+    position: absolute;
+    display: grid;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "one two three four";
+    column-gap: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+@each $item in $items {
+    .#{$item} {
+        grid-area: #{$item};
+        background-color: map-get($background-colors, $item);
+        transform: translateY(-100%);
+        transition: transform 0.5s ease;
+    }
+}
+
+@for $i from 1 through 4 {
+    .wrapper:nth-child(#{$i}) {
+        transition: all ($i * 0.25)s ease;
+    }
+}
+
+.wrapper:hover {
+    @each $item in $items {
+        .#{$item} {
+            transform: translateY(0);
+        }
+    }
+}
+
+@for $i from 1 through 4 {
+    .wrapper:hover .#{nth($items, $i)} {
+        transition-delay: $i * 0.1s;
+    }
+}
